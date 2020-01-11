@@ -1,6 +1,6 @@
 {
   "name": "@1place/eslint-config-1place",
-  "version": "0.1.5",
+  "version": "0.1.9",
   "description": "1Place's ESLint shareable config",
   "author": "Manuel Vila <hi@mvila.me>",
   "license": "MIT",
@@ -11,8 +11,9 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "babel-eslint": "~10.0.2",
-    "eslint-config-xo": "~0.26.0"
+    "babel-eslint": "~10.0.3",
+    "eslint-config-prettier": "~6.9.0",
+    "eslint-config-xo": "~0.27.2"
   },
   "@managed": {
     "warning": "This file contains properties managed by a Resource. You should not modify them directly or use a command such as `npm install <name>`.",
