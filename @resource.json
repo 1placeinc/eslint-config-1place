@@ -1,18 +1,25 @@
 {
   "@import": "js/npm-package#^0.1.0",
   "name": "@1place/eslint-config-1place",
-  "version": "0.1.9",
+  "version": "0.1.13",
   "description": "1Place's ESLint shareable config",
   "author": "Manuel Vila <hi@mvila.me>",
   "license": "MIT",
   "repository": "https://github.com/1placeinc/eslint-config-1place.git",
   "files": [
     "./index.js",
-    "./react.js"
+    "./react.js",
+    "./babel-config.js"
   ],
   "main": "./index.js",
   "dependencies": {
-    "babel-eslint": "~10.0.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-proposal-private-methods": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "~11.0.0-beta.2",
     "eslint-config-prettier": "~6.9.0",
     "eslint-config-xo": "~0.27.2"
   }

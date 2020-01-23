@@ -1,11 +1,16 @@
 'use strict';
 
+const path = require('path');
+
 module.exports = {
   extends: [require.resolve('eslint-config-xo/esnext'), require.resolve('eslint-config-prettier')],
   parser: require.resolve('babel-eslint'),
   parserOptions: {
     ecmaFeatures: {
       legacyDecorators: true
+    },
+    babelOptions: {
+      configFile: path.join(__dirname, 'babel-config.js')
     }
   },
   env: {
