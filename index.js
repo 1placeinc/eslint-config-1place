@@ -19,6 +19,7 @@ module.exports = {
   },
   rules: {
     'capitalized-comments': 0,
+    'default-param-last': 0,
     'new-cap': [2, {capIsNew: false}],
     'no-await-in-loop': 0,
     'no-constant-condition': [2, {checkLoops: false}],
