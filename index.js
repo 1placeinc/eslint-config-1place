@@ -23,6 +23,7 @@ module.exports = {
     'new-cap': [2, {capIsNew: false}],
     'no-await-in-loop': 0,
     'no-constant-condition': [2, {checkLoops: false}],
+    'no-lonely-if': 0,
     'no-negated-condition': 0,
     'no-return-await': 0,
     'no-unused-vars': [2, {ignoreRestSiblings: true, argsIgnorePattern: '^_'}],

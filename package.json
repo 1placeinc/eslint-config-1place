@@ -1,6 +1,6 @@
 {
   "name": "@1place/eslint-config-1place",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "1Place's ESLint shareable config",
   "author": "Manuel Vila <hi@mvila.me>",
   "license": "MIT",
